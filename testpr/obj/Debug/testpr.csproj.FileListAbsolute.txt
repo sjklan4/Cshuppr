@@ -1,0 +1,9 @@
+C:\c#\gitconnet\testpr\obj\Debug\testpr.csproj.AssemblyReference.cache
+C:\c#\gitconnet\testpr\obj\Debug\testpr.Properties.Resources.resources
+C:\c#\gitconnet\testpr\obj\Debug\testpr.csproj.GenerateResource.cache
+C:\c#\gitconnet\testpr\obj\Debug\testpr.csproj.CoreCompileInputs.cache
+C:\c#\gitconnet\testpr\bin\Debug\testpr.exe.config
+C:\c#\gitconnet\testpr\bin\Debug\testpr.exe
+C:\c#\gitconnet\testpr\bin\Debug\testpr.pdb
+C:\c#\gitconnet\testpr\obj\Debug\testpr.exe
+C:\c#\gitconnet\testpr\obj\Debug\testpr.pdb

@@ -1,0 +1,10 @@
+C:\c#\gitconnet\gugudan\bin\Debug\gugudan.exe.config
+C:\c#\gitconnet\gugudan\bin\Debug\gugudan.exe
+C:\c#\gitconnet\gugudan\bin\Debug\gugudan.pdb
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.csproj.AssemblyReference.cache
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.Form1.resources
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.Properties.Resources.resources
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.csproj.GenerateResource.cache
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.csproj.CoreCompileInputs.cache
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.exe
+C:\c#\gitconnet\gugudan\obj\Debug\gugudan.pdb

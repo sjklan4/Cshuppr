@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\HTMLPHP\\Project1\\C#prac\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\c#\\gitconnet\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\HTMLPHP\\Project1\\C#prac\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\c#\\gitconnet\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\HTMLPHP\\Project1\\C#prac\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\c#\\gitconnet\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\USER\\HTMLPHP\\Project1\\C#prac\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\HTMLPHP\\Project1\\C#prac\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\c#\\gitconnet\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\박선호\\.nuget\\packages\\",
+        "outputPath": "C:\\c#\\gitconnet\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\박선호\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
