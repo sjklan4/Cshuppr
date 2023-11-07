@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Form1.Designer",
+      "appliesTo": "gugudan/Form1.Designer.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Form1.Designer",
+      "appliesTo": "gugudan/Form1.Designer.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Form1",
+      "appliesTo": "datepick/Form1.cs",
+      "type": "launch"
+    }
+  ]
+}

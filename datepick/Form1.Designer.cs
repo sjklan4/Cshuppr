@@ -35,37 +35,42 @@
             // 
             // dtpTime
             // 
-            this.dtpTime.Location = new System.Drawing.Point(27, 24);
+            this.dtpTime.Location = new System.Drawing.Point(19, 16);
+            this.dtpTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpTime.Name = "dtpTime";
-            this.dtpTime.Size = new System.Drawing.Size(291, 28);
+            this.dtpTime.Size = new System.Drawing.Size(205, 21);
             this.dtpTime.TabIndex = 0;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(355, 24);
+            this.btnSave.Location = new System.Drawing.Point(248, 16);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(148, 28);
+            this.btnSave.Size = new System.Drawing.Size(104, 19);
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "입력";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtMemo
             // 
-            this.txtMemo.Location = new System.Drawing.Point(35, 78);
+            this.txtMemo.Location = new System.Drawing.Point(24, 52);
+            this.txtMemo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMemo.Multiline = true;
             this.txtMemo.Name = "txtMemo";
-            this.txtMemo.Size = new System.Drawing.Size(467, 434);
+            this.txtMemo.Size = new System.Drawing.Size(328, 291);
             this.txtMemo.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 571);
+            this.ClientSize = new System.Drawing.Size(388, 412);
             this.Controls.Add(this.txtMemo);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dtpTime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "일기장";

@@ -1,0 +1,10 @@
+C:\c#\gitconnet\datepick\bin\Debug\datepick.exe.config
+C:\c#\gitconnet\datepick\bin\Debug\datepick.exe
+C:\c#\gitconnet\datepick\bin\Debug\datepick.pdb
+C:\c#\gitconnet\datepick\obj\Debug\datepick.csproj.AssemblyReference.cache
+C:\c#\gitconnet\datepick\obj\Debug\datepick.Form1.resources
+C:\c#\gitconnet\datepick\obj\Debug\datepick.Properties.Resources.resources
+C:\c#\gitconnet\datepick\obj\Debug\datepick.csproj.GenerateResource.cache
+C:\c#\gitconnet\datepick\obj\Debug\datepick.csproj.CoreCompileInputs.cache
+C:\c#\gitconnet\datepick\obj\Debug\datepick.exe
+C:\c#\gitconnet\datepick\obj\Debug\datepick.pdb

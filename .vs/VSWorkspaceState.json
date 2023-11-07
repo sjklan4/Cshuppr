@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\datepick"
   ],
-  "SelectedNode": "\\ConsoleApp1.sln",
+  "SelectedNode": "\\datepick\\Form1.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
