@@ -46,20 +46,20 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.ButtonSeven = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.Result_Button = new System.Windows.Forms.Button();
+            this.Dell_button = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // display
             // 
-            this.display.AutoSize = true;
             this.display.Dock = System.Windows.Forms.DockStyle.Top;
-            this.display.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.display.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.display.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.display.Location = new System.Drawing.Point(0, 0);
             this.display.Name = "display";
             this.display.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.display.Size = new System.Drawing.Size(36, 35);
+            this.display.Size = new System.Drawing.Size(471, 76);
             this.display.TabIndex = 0;
             this.display.Text = "0";
             this.display.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -108,6 +108,7 @@
             this.button15.TabIndex = 15;
             this.button15.Text = "-";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button14
             // 
@@ -137,7 +138,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(107, 91);
             this.button12.TabIndex = 12;
-            this.button12.Text = "Del";
+            this.button12.Text = "C";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -150,6 +151,7 @@
             this.button11.TabIndex = 11;
             this.button11.Text = "+";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -193,6 +195,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "*";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -236,6 +239,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "÷";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -268,23 +272,37 @@
             this.ButtonSeven.TabIndex = 0;
             this.ButtonSeven.Text = "7";
             this.ButtonSeven.UseVisualStyleBackColor = true;
+            this.ButtonSeven.Click += new System.EventHandler(this.ButtonSeven_Click);
             // 
-            // button16
+            // Result_Button
             // 
-            this.button16.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button16.Location = new System.Drawing.Point(6, 498);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(455, 55);
-            this.button16.TabIndex = 13;
-            this.button16.Text = "=";
-            this.button16.UseVisualStyleBackColor = true;
+            this.Result_Button.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Result_Button.Location = new System.Drawing.Point(233, 498);
+            this.Result_Button.Name = "Result_Button";
+            this.Result_Button.Size = new System.Drawing.Size(228, 55);
+            this.Result_Button.TabIndex = 13;
+            this.Result_Button.Text = "=";
+            this.Result_Button.UseVisualStyleBackColor = true;
+            this.Result_Button.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // Dell_button
+            // 
+            this.Dell_button.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Dell_button.Location = new System.Drawing.Point(-2, 498);
+            this.Dell_button.Name = "Dell_button";
+            this.Dell_button.Size = new System.Drawing.Size(228, 55);
+            this.Dell_button.TabIndex = 14;
+            this.Dell_button.Text = "Del";
+            this.Dell_button.UseVisualStyleBackColor = true;
+            this.Dell_button.Click += new System.EventHandler(this.Dell_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(471, 565);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.Dell_button);
+            this.Controls.Add(this.Result_Button);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.display);
             this.Name = "Form1";
@@ -292,7 +310,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -316,7 +333,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button ButtonSeven;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button Result_Button;
+        private System.Windows.Forms.Button Dell_button;
     }
 }
 
