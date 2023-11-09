@@ -24,8 +24,10 @@ namespace Calculator
         }
         Operators currentOperator = Operators.None;
         Boolean operatorChangeFlag = false;
-        int firstOperand = 0;
-        int secondOperand = 0;
+        double firstOperand = 0;
+        double secondOperand = 0;
+
+        // private string currentNumber = "";
 
         public Form1()
         {
@@ -45,8 +47,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "2"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -62,8 +64,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "1"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,8 +76,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "8"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -86,8 +88,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "9"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -98,8 +100,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "4"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -110,8 +112,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "5"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -122,8 +124,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "6"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -134,8 +136,8 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "3"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -146,14 +148,26 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "0"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e) //C버튼 구문
         {
-            
-           
+            if (display.Text.Length > 1)
+            {
+                display.Text = display.Text.Substring(0, display.Text.Length - 1);
+                
+            }
+            else if(display.Text.Length == 1)
+            {
+                display.Text = "0";
+            }
+            string strNumber = display.Text;
+            double doubleNumber = double.Parse(strNumber);
+            display.Text = doubleNumber.ToString();
+
+
         }
 
         private void ButtonSeven_Click(object sender, EventArgs e)
@@ -164,20 +178,20 @@ namespace Calculator
                 operatorChangeFlag = false;
             }
             string strNumber = display.Text += "7"; // display레이아웃에 숫자 1을 문자로 인식해서 하나씩 추가 하도록함
-            int intNumber = Int32.Parse(strNumber); // 다시 문자를 숫자로 인식
-            display.Text = intNumber.ToString();  // 숫자로 기록되도록 변환
+            double doubleNumber = double.Parse(strNumber); // 다시 문자를 숫자로 인식
+            display.Text = doubleNumber.ToString();  // 숫자로 기록되도록 변환
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            firstOperand = Int32.Parse(display.Text);
+            firstOperand = double.Parse(display.Text);
             currentOperator = Operators.Add;
             operatorChangeFlag = true;
         }
 
         private void button16_Click(object sender, EventArgs e) // result버튼
         {
-            secondOperand = Int32.Parse(display.Text);
+            secondOperand = double.Parse(display.Text);
             if (currentOperator == Operators.Add)
             {
                 firstOperand += secondOperand;
@@ -217,21 +231,21 @@ namespace Calculator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            firstOperand = Int32.Parse(display.Text);
+            firstOperand = double.Parse(display.Text);
             currentOperator = Operators.Divide;
             operatorChangeFlag = true;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            firstOperand = Int32.Parse(display.Text);
+            firstOperand = double.Parse(display.Text);
             currentOperator = Operators.Multiply;
             operatorChangeFlag = true;
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            firstOperand = Int32.Parse(display.Text);
+            firstOperand = double.Parse(display.Text);
             currentOperator = Operators.Subtract;
             operatorChangeFlag = true;
         }

@@ -8,3 +8,13 @@ C:\Users\USER\source\repos\Cshuppr\Calculator\obj\Debug\Calculator.csproj.Genera
 C:\Users\USER\source\repos\Cshuppr\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\Cshuppr\Calculator\obj\Debug\Calculator.exe
 C:\Users\USER\source\repos\Cshuppr\Calculator\obj\Debug\Calculator.pdb
+C:\c#\Gitconn\Calculator\bin\Debug\Calculator.exe.config
+C:\c#\Gitconn\Calculator\bin\Debug\Calculator.exe
+C:\c#\Gitconn\Calculator\bin\Debug\Calculator.pdb
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.Form1.resources
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.exe
+C:\c#\Gitconn\Calculator\obj\Debug\Calculator.pdb
