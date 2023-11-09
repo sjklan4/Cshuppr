@@ -12,20 +12,20 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
-        enum Operators
+        enum Operators // 연산자 유형들 정의 시킴
         {
-            None,
-            Add,
-            Subtract,
-            Multiply,
+            None, //아무것도 없음
+            Add,  // 더하기
+            Subtract, //빼기
+            Multiply, // 곱하기 나누기 결과
             Divide,
-            Result,
-            RemoveAt
+            Result
+            
         }
-        Operators currentOperator = Operators.None;
-        Boolean operatorChangeFlag = false;
-        double firstOperand = 0;
-        double secondOperand = 0;
+        Operators currentOperator = Operators.None; //아무 실행도 하지 않은 상태 정의
+        Boolean operatorChangeFlag = false; //실행 상태를 조정하기 위한 부분 - false로 정의시 아무 실행도 하지 않음
+        double firstOperand = 0; // 연산 수행시 필요한 부분 첫번째 피연산자 정의 
+        double secondOperand = 0; // 연산 수행시 필요한 부분 두번째 피연산자 정의
 
         // private string currentNumber = "";
 
